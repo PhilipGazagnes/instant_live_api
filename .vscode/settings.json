@@ -1,0 +1,18 @@
+{
+  "deploy.reloaded": {
+    "showPopupOnSuccess": false,
+    "targets": [
+      {
+        "type": "sftp",
+        "name": "OVH",
+        "description": "OVH mutualisé instant-live.fr",
+        "dir": "/home/instans/www",
+        "host": "ftp.cluster027.hosting.ovh.net",
+        "port": 22,
+        "user": "instans",
+        "password": "Ovh0152280",
+        "checkBeforeDeploy": true
+      },
+    ]
+  },
+}
